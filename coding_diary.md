@@ -1,3 +1,7 @@
+- Setting up Sentry
+    - Following:
+        - https://your_domain.sentry.io/insights/projects/tedis-ruby-rails-playground/getting-started/ - better insights
+    - `bin/rails generate sentry`
 - Exporters
     - Following https://opentelemetry.io/docs/languages/ruby/exporters/
     - `bundle add opentelemetry-sdk opentelemetry-instrumentation-all`
