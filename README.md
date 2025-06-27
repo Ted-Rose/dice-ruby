@@ -7,5 +7,5 @@ Repository for learning OpenTelemetry.
 - Update your `.env` file
 - `export $(grep -v '^#' .env | xargs)`
 - `bundle install`
-- `rails sentry:test`
+- `rake "sentry:test[OTel should be used in this span]"`
     - See issues [here](https://your_domain.sentry.io/issues/6712524147/?project=4509570753757185&query=is%3Aunresolved&referrer=issue-stream&stream_index=1)

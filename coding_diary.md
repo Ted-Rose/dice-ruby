@@ -1,3 +1,5 @@
+- Exporting to Sentry using OpenTelemetry
+    - `rake "sentry:test[OTel should be used in this span]"`
 - Setting up Sentry
     - Following:
         - https://your_domain.sentry.io/insights/projects/tedis-ruby-rails-playground/getting-started/ - better insights
