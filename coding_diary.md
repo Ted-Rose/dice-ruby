@@ -1,1 +1,3 @@
-- 
+- Following https://opentelemetry.io/docs/languages/ruby/getting-started/
+    - `rails new --api dice-ruby`
+    - `rails generate controller dice`
