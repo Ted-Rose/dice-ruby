@@ -1,3 +1,8 @@
+- Exporting to Sentry using OpenTelemetry
+    - `rake "sentry:test[OTel should be used in this span]"`
+    - `rails server -p 8080`
+    - Hit http://localhost:8080/rolldice in browser
+    - Visit https://your_domain.sentry.io/explore/traces/ to find traces
 - Setting up Sentry
     - Following:
         - https://your_domain.sentry.io/insights/projects/tedis-ruby-rails-playground/getting-started/ - better insights

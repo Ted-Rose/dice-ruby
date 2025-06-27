@@ -498,6 +498,9 @@ GEM
       rubocop-rails (>= 2.30)
     ruby-progressbar (1.13.0)
     securerandom (0.4.1)
+    sentry-opentelemetry (5.25.0)
+      opentelemetry-sdk (~> 1.0)
+      sentry-ruby (~> 5.25.0)
     sentry-rails (5.25.0)
       railties (>= 5.0)
       sentry-ruby (~> 5.25.0)
@@ -579,6 +582,7 @@ DEPENDENCIES
   puma (>= 5.0)
   rails (~> 8.0.2)
   rubocop-rails-omakase
+  sentry-opentelemetry
   sentry-rails
   sentry-ruby
   solid_cable

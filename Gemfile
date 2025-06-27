@@ -59,3 +59,4 @@ gem "opentelemetry-exporter-otlp", "~> 0.30.0"
 ########################
 gem "sentry-ruby"
 gem "sentry-rails"
+gem "sentry-opentelemetry"
