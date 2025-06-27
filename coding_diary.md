@@ -1,3 +1,6 @@
+- Setting up Sentry
+    - Following https://docs.sentry.io/platforms/ruby/guides/rails/
+    - 
 - Exporters
     - Following https://opentelemetry.io/docs/languages/ruby/exporters/
     - `bundle add opentelemetry-sdk opentelemetry-instrumentation-all`

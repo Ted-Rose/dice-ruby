@@ -46,7 +46,16 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
 end
 
+########################
+#      Telemetry       #
+########################
 gem "opentelemetry-sdk", "~> 1.8"
 gem "opentelemetry-instrumentation-all", "~> 0.78.0"
 
 gem "opentelemetry-exporter-otlp", "~> 0.30.0"
+
+########################
+#      Sentry       #
+########################
+gem "sentry-ruby"
+gem "sentry-rails"
