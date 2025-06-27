@@ -48,3 +48,5 @@ end
 
 gem "opentelemetry-sdk", "~> 1.8"
 gem "opentelemetry-instrumentation-all", "~> 0.78.0"
+
+gem "opentelemetry-exporter-otlp", "~> 0.30.0"
