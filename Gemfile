@@ -46,5 +46,5 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
 end
 
-gem "opentelemetry-sdk", "~> 1.8"
+gem "opentelemetry-sdk", "~> 1.9"
 gem "opentelemetry-instrumentation-all", "~> 0.78.0"
